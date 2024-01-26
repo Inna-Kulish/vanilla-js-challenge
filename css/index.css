@@ -112,4 +112,72 @@ kbd {
   text-transform: uppercase;
   letter-spacing: 0.1rem;
   color: #ffc600;
+}
+
+.clock-container {
+  display: flex;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background: #018ded;
+  background-size: cover;
+  font-family: "helvetica neue";
+  text-align: center;
+  font-size: 10px;
+}
+
+.clock {
+  position: relative;
+  width: 400px;
+  height: 400px;
+  padding: 20px;
+  border: 20px solid white;
+  border-radius: 50%;
+  box-shadow: 0 0 0 4px rgba(0, 0, 0, 0.1), inset 0 0 0 3px #efefef, inset 0 0 10px black, 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.clock-face {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.hand {
+  position: absolute;
+  width: 50%;
+  background: black;
+  top: 50%;
+  transform: rotate(90deg);
+  transform-origin: 100%;
+  transition: all 0.05s cubic-bezier(0.1, 2.7, 0.58, 1);
+}
+
+.circle {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: black;
+  border: 4px solid #018ded;
+  border-radius: 50%;
+}
+
+.hour-hand {
+  height: 8px;
+  border-radius: 4px;
+  width: 35%;
+  left: 15%;
+}
+
+.min-hand {
+  height: 4px;
+  border-radius: 4px;
+}
+
+.second-hand {
+  height: 2px;
+  border-radius: 1px;
+  background: #f0c952;
 }/*# sourceMappingURL=index.css.map */
