@@ -121,7 +121,6 @@ kbd {
   align-items: center;
   background: #018ded;
   background-size: cover;
-  font-family: "helvetica neue";
   text-align: center;
   font-size: 10px;
 }
@@ -180,4 +179,30 @@ kbd {
   height: 2px;
   border-radius: 1px;
   background: #f0c952;
+}
+
+.var-container {
+  background: #193549;
+  text-align: center;
+  font-family: "helvetica neue", sans-serif;
+  font-weight: 100;
+  font-size: 50px;
+  color: white;
+}
+.var-container img {
+  display: inline-block;
+  padding: 10px;
+  background: #ffc600;
+  filter: 10px;
+}
+
+.hl {
+  color: #ffc600;
+}
+
+.controls {
+  margin-bottom: 50px;
+}
+.controls input {
+  width: 100px;
 }/*# sourceMappingURL=index.css.map */
