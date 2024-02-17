@@ -356,4 +356,8 @@ span.population {
 
 .city-accent {
   background: #ffc600;
+}
+
+canvas {
+  cursor: pointer;
 }/*# sourceMappingURL=index.css.map */
